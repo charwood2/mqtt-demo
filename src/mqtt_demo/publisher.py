@@ -102,6 +102,8 @@ def main() -> None:
 
             time.sleep(PUBLISH_INTERVAL)
 
+            time.sleep(1)
+
     except KeyboardInterrupt:
         logging.info("Interrupted by user")
 
